@@ -6,7 +6,12 @@ const Note = () => {
 
   const { id } = router.query;
 
-  return <div>single note page. note id = {id}</div>;
+  return (
+    <div>
+      <h1>Note page</h1>
+      <p>note id:{id}</p>
+    </div>
+  );
 };
 
 export default Note;
